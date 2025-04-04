@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Houc",
+		"description": "Connects Service Professionals with Customers",
+		"image": "/assets/images/projects/houc.png",
+		"url": "https://github.com/yashkc2025/houc"
+	},
+	{
+		"name": "Flask Music",
+		"description": "Spotify like service written in Flask",
+		"image": "/assets/images/projects/music.jpeg",
+		"url": "https://github.com/yashkc2025/music-player-flask"
+	},
+	{
+		"name": "Locating Flagellar Motors in Bacteria",
+		"description": "ML + BioPhysics",
+		"image": "/assets/images/projects/flagellar.jpeg",
+		"url": ""
+	},
+	{
+		"name": "Shortier",
+		"description": "Shorten URL from your terminal",
+		"image": "/assets/images/projects/shortier.png",
+		"url": "https://pypi.org/project/shortier/"
+	}
+]

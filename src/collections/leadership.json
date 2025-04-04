@@ -1,0 +1,16 @@
+[
+	{
+		"dates": "January 2024 · Present",
+		"role": "Beta Learn Student Ambassador",
+		"company": "Microsoft",
+		"description": "Delivered workshops on GitHub Actions and Linux migration, and led mentoring sessions on Microsoft technologies. Actively contributed to open-source initiatives and technical advocacy as an Alpha Member in the previous term.",
+		"logo": "/assets/images/experiences/microsoft.png"
+	},
+	{
+		"dates": "June 2023 · Oct 2023",
+		"role": "Tech Lead",
+		"company": "DevBhasha IITM",
+		"description": "Designed and Developed Society's website and conducted intercultural events.",
+		"logo": "/assets/images/experiences/dbss.png"
+	}
+]
