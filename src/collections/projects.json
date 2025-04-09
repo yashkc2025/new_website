@@ -6,6 +6,12 @@
 		"url": "https://github.com/yashkc2025/automated_flagellar_motor_detection"
 	},
 	{
+		"name": "Dog Face Detection using YOLOv8",
+		"description": "Object Detection",
+		"image": "/assets/images/projects/dog.jpg",
+		"url": "https://github.com/yashkc2025/dog_face_detection"
+	},
+	{
 		"name": "Houc",
 		"description": "Connects Service Professionals with Customers",
 		"image": "/assets/images/projects/houc.png",
