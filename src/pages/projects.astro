@@ -3,6 +3,8 @@ import projects from "../collections/projects.json";
 import PageHeading from "../components/page-heading.astro";
 import Project from "../components/project.astro";
 import Layout from "../layouts/main.astro";
+
+console.log(projects);
 ---
 
 <Layout title="My Projects">
@@ -23,8 +25,9 @@ import Layout from "../layouts/main.astro";
               description={project.description}
               image={project.image}
               url={project.url}
+              in_progress={project.in_progress}
             />
-          )
+          );
         })
       }
     </div>

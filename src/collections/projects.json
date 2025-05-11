@@ -1,9 +1,34 @@
 [
 	{
-		"name": "Automated Flagellar Motor Detection in Cryo-ET",
+		"name": "Ask Wikipedia Anything",
+		"description": "RAG + SLM",
+		"image": "/assets/images/projects/wiki.jpg",
+		"in_progress": "true",
+		"url": ""
+	},
+	{
+		"name": "Automated Flagellar Motor Localization in Cryo-ET",
 		"description": "Machine Learning + BioPhysics",
 		"image": "/assets/images/projects/flagellar.jpeg",
 		"url": "https://github.com/yashkc2025/automated_flagellar_motor_detection"
+	},
+	{
+		"name": "Skyview Aerial Landscape",
+		"description": "Classifying land based on satellite images",
+		"image": "/assets/images/projects/skyview.png",
+		"url": "https://github.com/yashkc2025/aerial_landscape_classification"
+	},
+	{
+		"name": "Carabid Beetle Classification",
+		"description": "British carabid beetles",
+		"image": "/assets/images/projects/beetle.jpeg",
+		"url": "https://github.com/yashkc2025/insect_identification_using_cnn"
+	},
+	{
+		"name": "Capstone: Agricultural Retail Business Analysis",
+		"description": "Inventory Optimisation + Sales Trends",
+		"image": "/assets/images/projects/agri.jpeg",
+		"url": "https://github.com/yashkc2025/agri-retail-data-strategies"
 	},
 	{
 		"name": "Dog Face Detection using YOLOv8",
