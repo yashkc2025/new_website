@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/post.astro
 title: Decoding Brain Conversations, Fast Non-negative Deconvolution and Functional Connectomics
-description: How a powerful technique helps us understand the brain — and why it matters for building a better future.
+description: How a powerful technique helps us understand the brain and why it matters for building a better future.
 dateFormatted: April 1, 2024
 ---
 
-_How a powerful technique helps us understand the brain — and why it matters for building a better future._
+_How a powerful technique helps us understand the brain and why it matters for building a better future._
 
 ---
 
@@ -13,11 +13,11 @@ _How a powerful technique helps us understand the brain — and why it matters f
 
 Imagine watching a paralyzed patient control a robotic arm with just their thoughts, or a new treatment reversing the effects of Alzheimer's disease. Behind these breakthroughs lies an essential question: how do we accurately track the conversations between billions of neurons in the brain?
 
-The brain is made up of billions of tiny cells called **neurons** that send electrical signals to each other. These signals — known as **spikes** — are how your brain thinks, feels, remembers, and moves. But how do we _see_ these spikes happening in real-time, and understand how neurons are connected?
+The brain is made up of billions of tiny cells called **neurons** that send electrical signals to each other. These signals known as **spikes** are how your brain thinks, feels, remembers, and moves. But how do we _see_ these spikes happening in real-time, and understand how neurons are connected?
 
-One remarkable method is **calcium imaging** — where we record light signals from neurons to detect when they are active. The challenge? These light signals are slow and messy, like trying to track lightning strikes by watching clouds glow. We need a smart way to clean them up and find out exactly when the neurons fired.
+One remarkable method is **calcium imaging** where we record light signals from neurons to detect when they are active. The challenge? These light signals are slow and messy, like trying to track lightning strikes by watching clouds glow. We need a smart way to clean them up and find out exactly when the neurons fired.
 
-That's where **fast non-negative deconvolution** comes in. It's a technique that helps scientists decode when neurons fire based on blurry data. From there, we can start building maps of how the brain's neurons talk to one another — called **functional connectomes**.
+That's where **fast non-negative deconvolution** comes in. It's a technique that helps scientists decode when neurons fire based on blurry data. From there, we can start building maps of how the brain's neurons talk to one another called **functional connectomes**.
 
 By the end of this article, you'll understand how this innovative approach works, why it's revolutionizing neuroscience, and how its applications extend from medical breakthroughs to artificial intelligence and social impact.
 
@@ -25,7 +25,7 @@ By the end of this article, you'll understand how this innovative approach works
 
 ## Why Do We Need This?
 
-Let's say you have a video of 100 neurons glowing. You know they're active when they glow, but the glow sticks around — it doesn't tell you exactly when the spike happened. And because of that, we can't easily figure out:
+Let's say you have a video of 100 neurons glowing. You know they're active when they glow, but the glow sticks around it doesn't tell you exactly when the spike happened. And because of that, we can't easily figure out:
 
 - Which neuron talked to which?
 - Who started the conversation?
@@ -33,7 +33,7 @@ Let's say you have a video of 100 neurons glowing. You know they're active when 
 
 Without precise timing, it's like trying to understand a conversation when everyone's words echo for several seconds. You hear overlapping voices but can't tell who said what first.
 
-At Stanford University, Dr. Liam Paninski's lab demonstrated how this problem hinders understanding of memory formation. They showed that millisecond-level precision is necessary to detect the neural patterns that encode new memories—precision impossible without deconvolution techniques.
+At Stanford University, Dr. Liam Paninski's lab demonstrated how this problem hinders understanding of memory formation. They showed that millisecond-level precision is necessary to detect the neural patterns that encode new memories precision impossible without deconvolution techniques.
 
 That's where fast non-negative deconvolution becomes a game-changer.
 
@@ -43,7 +43,7 @@ That's where fast non-negative deconvolution becomes a game-changer.
 
 ### When a Neuron Fires…
 
-It sends a tiny spike ⚡, which causes calcium molecules to rush into the cell. This makes the neuron glow — like a soft green light 💡.
+It sends a tiny spike ⚡, which causes calcium molecules to rush into the cell. This makes the neuron glow like a soft green light 💡.
 
 But this glow doesn't appear and disappear immediately. Instead, it slowly rises and fades away over hundreds of milliseconds. This blurs the actual timing of when the neuron spiked.
 
@@ -61,8 +61,8 @@ That's the problem we're solving with **deconvolution**.
 It's the process of working backward from the blur (ripples) to figure out the original sharp events (splashes/spikes).
 
 - **Fast**: Works quickly on large datasets with thousands of neurons.
-- **Non-negative**: Spikes can't be negative because neural activity is an all-or-nothing event—neurons either fire (positive) or remain silent (zero), they can't "anti-fire" (negative).
-- **Sparse**: Neurons don't fire all the time — just in bursts. The algorithm knows that most of the time, there's no spike.
+- **Non-negative**: Spikes can't be negative because neural activity is an all-or-nothing event neurons either fire (positive) or remain silent (zero), they can't "anti-fire" (negative).
+- **Sparse**: Neurons don't fire all the time just in bursts. The algorithm knows that most of the time, there's no spike.
 
 ### A Visual Explanation of the Math
 
@@ -119,7 +119,7 @@ After deconvolution:
 Recovered spike train:   0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0
 ```
 
-In a 2019 study with mice navigating a virtual maze, researchers at UCSD used this technique to identify precise spike timing in hippocampal neurons. They discovered that place cell firing occurred exactly 20ms after certain cues appeared—a finding impossible without deconvolution that revealed critical insights about spatial memory formation.
+In a 2019 study with mice navigating a virtual maze, researchers at UCSD used this technique to identify precise spike timing in hippocampal neurons. They discovered that place cell firing occurred exactly 20ms after certain cues appeared, a finding impossible without deconvolution that revealed critical insights about spatial memory formation.
 
 ---
 
