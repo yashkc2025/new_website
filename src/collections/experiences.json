@@ -1,5 +1,12 @@
 [
 	{
+		"dates": "May 2025 · July 2025",
+		"role": "Project Intern",
+		"company": "IIT Ropar",
+		"description": "Worked on developing AI based agricultural solutions.",
+		"logo": "/assets/images/experiences/iit_rpr.png"
+	},
+	{
 		"dates": "January 2024 · May 2024",
 		"role": "Full Stack Developer & Data Science Intern",
 		"company": "Cybermind Works",
